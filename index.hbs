@@ -1,0 +1,131 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <meta name="description" content="林晓蕾 xiaolei Lin">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <!--[if lte IE 9]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <![endif]-->
+
+    <!-- Add your site or application content here -->
+    <div class="body">
+      <div class="row">
+        <div class="left left-1 background">
+          <div class="photo">
+            <img src="img/xiaolei.jpg" alt="Xiaolei Lin">
+          </div>
+        </div>
+        <div class="right">
+          <div class="intro with-padding">
+            <div></div>
+            <div>
+              <h1 class="name">
+                {{details.name}}
+              </h1>
+            </div>
+            <div class="intro-footer">
+              <div>
+                <h4>Address</h4>
+                <div>{{details.address}}</div>
+              </div>
+              <div>
+                <h4>Email</h4>
+                <a href="mailto:{{details.email}}">{{details.email}}</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {{#each details.details}}
+        <div class="row">
+          <div class="left text-right mobile-text-left background">
+            <div class="with-padding">
+              <h2 class="no-margin">{{this.sectionName}}</h2>
+            </div>
+          </div>
+          <div class="right">
+            <div class="with-padding content">
+              {{{this.content}}}
+            </div>
+          </div>
+        </div>
+      {{/each}}
+      <div class="row">
+        <div class="left text-right mobile-text-left background">
+          <div class="with-padding">
+            <h2 class="no-margin">EDUCATION</h2>
+          </div>
+        </div>
+        <div class="right">
+          <div class="with-padding content">
+            {{#each details.education}}
+              <div class="card">
+                <h2>{{{this.title}}}</h2>
+                {{#if this.subTitle}}
+                  <div class="sub-title">
+                    {{{this.subTitle}}}
+                  </div>
+                {{/if}}
+                {{#if this.content}}
+                  <div class="s-content">
+                    {{{this.content}}}
+                  </div>
+                {{/if}}
+              </div>
+            {{/each}}
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="left text-right mobile-text-left background">
+          <div class="with-padding">
+            <h2 class="no-margin">WORK EXPERIENCE</h2>
+          </div>
+        </div>
+        <div class="right">
+          <div class="with-padding content">
+            {{#each details.workExperience}}
+              <div class="card">
+                <h2>{{{this.title}}}</h2>
+                {{#if this.subTitle}}
+                  <div class="sub-title">
+                    {{{this.subTitle}}}
+                  </div>
+                {{/if}}
+                {{#if this.content}}
+                  <div class="s-content">
+                    {{{this.content}}}
+                  </div>
+                {{/if}}
+              </div>
+            {{/each}}
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="left text-right mobile-text-left background">
+          <div class="with-padding">
+            <h2 class="no-margin">PUBLICATION</h2>
+          </div>
+        </div>
+        <div class="right">
+          <div class="with-padding content">
+            {{#each details.publication}}
+              <div class="card">
+                <h4>{{{this}}}</h2>
+              </div>
+            {{/each}}
+          </div>
+        </div>
+      </div>
+  </body>
+</html>

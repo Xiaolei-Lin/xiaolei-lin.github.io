@@ -1,0 +1,50 @@
+{
+  "name": "Xiaolei Lin",
+  "occupation": "Ph.D candidate & Statistician-to-be",
+  "address": "220 Handan Road, Zibin N107, Shanghai, 200433",
+  "email": "xiaoleilin@fudan.edu.cn",
+  "details": [
+    {
+      "sectionName": "ABOUT ME",
+      "content": "<p>I am an Assistant Professor at the School of Data Science, Fundan University. My research interests include biostatistics, statistical methods for intensive longitudinal data, and statistical learning for clustering and longitudinal data. Before Fudan, I obtained my Ph.D in Biostatistics from The University of Chicago, under the supervision of Dr. Donald Hedeker.</p>"
+    },
+    {
+      "sectionName": "RESEARCH INTERESTS",
+      "content": "<p>Biostatistics</p><p>Statistical methods for intensive longitudinal data.</p><p>Statistical learning for clustering and longitudinal data.</p>"
+    }
+  ],
+  "education": [
+    {
+      "title": "Ph.D, The University of Chicago, 2018",
+      "content": "<p>Thesis: Statistical methods for Ecological Momentary Assessment Data: heterogeneous variance, missing data and latent state classification</p>"
+    },
+    {
+      "title": "MS, The University of Iowa, 2014",
+      "content": "<p>Thesis: Hierarchical auto-regressive model for longitudinal visual field loss assessment</p>"
+    },
+    {
+      "title": "BS, Sun Yat-Sen University, 2011"
+    }
+  ],
+  "workExperience": [
+    {
+      "title": "Assistant Professor, Oct. 2018 – present",
+      "subTitle": "School of Data Science, Fudan University"
+    },
+    {
+      "title": "Data Scientist Intern, Jun 2017 – Sep 2017",
+      "subTitle": " Google Inc, New York City, NY"
+    },
+    {
+      "title": "Data Scientist Intern, Jun 2016 – Aug 2016",
+      "subTitle": "Google Inc, Mountain View, CA"
+    }
+  ],
+  "publication": [
+    "<a href=\"\">A 3-level Bayesian mixed effects location scale model with an application to ecological momentary assessment data, Statistics in Medicine, 2018</a>",
+    "<a href=\"\">A shared parameter location scale mixed effect model for EMA data subject to informative missing, Health Serv Outcomes Res Method 2018</a>",
+    "<a href=\"\">Duration of Androgen Deprivation in Locally Advanced Prostate Cancer: Long-Term Update of NRG Oncology RTOG 9202, International Journal of Radiation Oncology biology physics, 2017</a>",
+    "<a href=\"\">Ocular-specific ER stress reduction rescues glaucoma in murine glucocorticoid-induced glaucoma, Journal of Clinical Investigation, 2014</a>",
+    "<a href=\"\">Modifiable Substance Use Behaviors in Adolescent and Young Adult (AYA) Cancer Patients, Journal of Clinical Oncology, 2017</a>"
+  ]
+}
