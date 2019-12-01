@@ -97,22 +97,6 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -207,18 +191,18 @@ textarea {
   /* Style adjustments for viewports that meet the condition */
   .right {
     width: 100%;
-    max-width:900px;
+    max-width: 900px;
   }
-  
+
   .left {
     width: 100%;
   }
 }
 
 @media print,
-     (-webkit-min-device-pixel-ratio: 1.25),
-     (min-resolution: 1.25dppx),
-     (min-resolution: 120dpi) {
+  (-webkit-min-device-pixel-ratio: 1.25),
+  (min-resolution: 1.25dppx),
+  (min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */
 }
 
@@ -315,7 +299,7 @@ a {
 
 .right {
   width: 60%;
-  max-width:900px;
+  max-width: 900px;
 }
 
 .left {
@@ -324,6 +308,10 @@ a {
 
 .background {
   background-color: #fbfbfb;
+}
+
+.occupation {
+  font-weight: bold;
 }
 
 .left-1 {
@@ -343,7 +331,7 @@ a {
   font-size: 78px;
   font-weight: 700;
   margin: 12px 0;
-  color: #F8BB10;
+  color: #f8bb10;
 }
 
 .title {
@@ -356,7 +344,6 @@ a {
 .photo {
   /* padding-right: 100px; */
   width: 80%;
-  
 }
 .photo img {
   border-radius: 50%;
@@ -427,9 +414,9 @@ h2 {
   /* Style adjustments for viewports that meet the condition */
   .right {
     width: 100%;
-    max-width:900px;
+    max-width: 900px;
   }
-  
+
   .left {
     width: 100%;
   }

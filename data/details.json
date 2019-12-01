@@ -1,12 +1,12 @@
 {
   "name": "Xiaolei Lin",
-  "occupation": "Ph.D candidate & Statistician-to-be",
+  "occupation": " Assistant Professor at Fudan University",
   "address": "220 Handan Road, Zibin N107, Shanghai, 200433",
   "email": "xiaoleilin@fudan.edu.cn",
   "details": [
     {
       "sectionName": "ABOUT ME",
-      "content": "<p>I am an Assistant Professor at the School of Data Science, Fundan University. My research interests include biostatistics, statistical methods for intensive longitudinal data, and statistical learning for clustering and longitudinal data. Before Fudan, I obtained my Ph.D in Biostatistics from The University of Chicago, under the supervision of Dr. Donald Hedeker.</p>"
+      "content": "<p>I am an Assistant Professor at the School of Data Science, Fudan University. My research interests include biostatistics, statistical methods for intensive longitudinal data, and statistical learning for clustering and longitudinal data. Before Fudan, I obtained my Ph.D in Biostatistics from The University of Chicago, under the supervision of Dr. Donald Hedeker.</p>"
     },
     {
       "sectionName": "RESEARCH INTERESTS",
